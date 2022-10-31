@@ -13,7 +13,9 @@ please make sure that while running the command the current working directory is
 docker run --rm fibonacci-numbers
 ```
 
-If you would like to build and image from using the Dokcerfile within the repository instead of using the image tar file, you can use the following command:
+One can also build the image directly from the Dockerfile, instead of using the image tar file, by running: 
 ```
 docker build -t fibonacci-numbers .
 ```
+and then run the container as described in section 2.
+
